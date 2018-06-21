@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel watch ./src/js/*.js ./src/css/*.scss --out-dir ./dist",
-    "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./dist --no-source-maps"
+    "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./dist --no-source-maps",
+    "lint:css": "stylelint \"src/**/*.scss\"",
+    "format:css": "prettier-stylelint \"src/**/*.scss\" --write"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +17,13 @@
     "jquery": "^3.3.1",
     "node-sass": "^4.9.0",
     "parcel-bundler": "^1.9.2"
-  }
+  },
+  "devDependencies": {
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^9.3.0",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.1.3"
+  },
+  "prettier": {}
 }
