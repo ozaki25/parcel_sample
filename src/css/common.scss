@@ -1,14 +1,2 @@
-$color-green: green;
-$color-bank: #e70000;
-$font-small: 16px;
-$font-big: 36px;
-
-a {
-  color: $color-green;
-  font-size: $font-small;
-  &:hover,
-  &:active {
-    color: $color-bank;
-    font-size: $font-big;
-  }
-}
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";

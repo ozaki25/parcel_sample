@@ -1,5 +1,4 @@
-import "./lib/jquery";
-import "bootstrap-sass";
 import "./common";
+import "./click-me";
 
 console.log("world");
