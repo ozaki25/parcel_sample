@@ -105,9 +105,15 @@ yarn add -D lint-staged husky
 }
 ```
 
-### サンプルの動作確認
+### Examples
 
-- hello.html/world.htmlを開くと動く
+- hello.html / world.htmlをブラウザで開くと動く
+    - それぞれdist配下のファイルを読み込んでる
+
+### Customize
+
+- package.jsonのscriptを好きなように変えて下さい
+    - entry point とか output dir とか
 
 
 
