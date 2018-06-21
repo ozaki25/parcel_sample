@@ -75,7 +75,7 @@ yarn format:js
 npm run format:js
 ```
 
-### その他
+### Improvement
 
 - format -> lintの順に実行すると良い
 - precommitを使って自動実行させてもいいかも
@@ -105,7 +105,7 @@ yarn add -D lint-staged husky
 }
 ```
 
-### Examples
+### Example
 
 - hello.html / world.htmlをブラウザで開くと動く
     - それぞれdist配下のファイルを読み込んでる
