@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "parcel watch ./src/js/*.js ./src/css/*.scss --out-dir ./dist",
     "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./dist --no-source-maps",
+    "lint:js": "eslint \"src/**/*.js\"",
     "lint:css": "stylelint \"src/**/*.scss\"",
-    "format:css": "prettier-stylelint \"src/**/*.scss\" --write"
+    "format:css": "prettier-stylelint \"src/**/*.scss\" --write",
+    "format:js": "prettier-eslint \"src/**/*.js\" --write"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,8 @@
     "parcel-bundler": "^1.9.2"
   },
   "devDependencies": {
+    "eslint-cli": "^1.1.1",
+    "prettier-eslint-cli": "^4.7.1",
     "prettier-stylelint": "^0.4.2",
     "stylelint": "^9.3.0",
     "stylelint-config-idiomatic-order": "^5.0.0",
