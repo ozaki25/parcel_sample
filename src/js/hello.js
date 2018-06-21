@@ -1,4 +1,4 @@
-import "./common";
-import "./click-me";
+import "./lib/common";
+import "./lib/click-me";
 
 console.log("hello");

@@ -1,2 +1,2 @@
-import "./lib/jquery";
+import "../lib/jquery";
 import "bootstrap-sass";

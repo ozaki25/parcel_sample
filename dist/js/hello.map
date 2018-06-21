@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/hello.js"],"names":["console","log"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;AACA;;AAEAA,QAAQC,GAAR,CAAY,OAAZ","file":"hello.map","sourceRoot":"../src","sourcesContent":["import \"./common\";\nimport \"./click-me\";\n\nconsole.log(\"hello\");\n"]}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel watch ./src/js/*.js ./src/css/*.scss --out-dir ./dist",
-    "build": "parcel build --no-source-maps ./src/js/*.js ./src/css/*.scss --out-dir ./dist"
+    "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./dist --no-source-maps"
   },
   "keywords": [],
   "author": "",
