@@ -4,17 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./public"
+    "dev": "parcel ./src/js/*.js ./src/css/*.scss --out-dir ./dist",
+    "build": "parcel build ./src/js/*.js ./src/css/*.scss --out-dir ./dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.9.0"
-  },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
     "parcel-bundler": "^1.9.2"
   }
 }

@@ -1,3 +1,13 @@
+$icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "common.scss";
+
+$purple: purple;
+
 h1 {
-  color: red;
+  color: $purple;
+}
+
+p {
+  color: $purple;
 }
