@@ -1,3 +1,5 @@
+### Overview
+
 - jquery + bootstrapを使ったアプリのjs/cssをES2015/SCSSで書きたい
 - js/cssを各1つのファイルにまとめて出力し、それを別プロジェクトで取り込んで利用する
 
@@ -112,6 +114,14 @@ yarn add -D lint-staged husky
 
 - hello.html / world.htmlをブラウザで開くと動く
     - それぞれdist配下のファイルを読み込んでる
+
+```bash
+yarn dev
+// or
+npm run dev
+
+open hello.html
+```
 
 ### Customize
 
