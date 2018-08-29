@@ -116,9 +116,9 @@ yarn add -D lint-staged husky
     - それぞれdist配下のファイルを読み込んでる
 
 ```bash
-yarn dev
+yarn build
 // or
-npm run dev
+npm run build
 
 open hello.html
 ```
