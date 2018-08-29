@@ -116,11 +116,13 @@ yarn add -D lint-staged husky
     - それぞれdist配下のファイルを読み込んでる
 
 ```bash
-yarn build
+yarn dev
 // or
-npm run build
+npm run dev
 
-open hello.html
+npm i -g serve
+serve .
+// open http://localhost:5000/hello.html
 ```
 
 ### Customize
