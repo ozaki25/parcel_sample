@@ -1,3 +1,6 @@
+- jquery + bootstrapを使ったアプリのjs/cssをES2015/SCSSで書きたい
+- js/cssを各1つのファイルにまとめて出力し、それを別プロジェクトで取り込んで利用する
+
 ### Get Started
 
 ```bash
@@ -13,7 +16,7 @@ npm i
 #### dev
 
 - devモードでbundleする
-- 対象ファイルを監視し変更を検知して自動でbundleが実行される
+- 対象ファイルを監視するので、変更を検知して自動でbundleが実行される
 - エントリーポイントとなるファイルはjsは`src/js`、cssは`src/css`直下に配置する
 - アウトプットはdist配下
 
